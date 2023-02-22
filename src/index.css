@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary colors */
+  --clr-light-cyan: 193 38% 86%;
+  --clr-neon-green: 150 100% 66%;
+  /* Neutral colors */
+  --clr-grayish-blue: 217 19% 38%;
+  --clr-dark-grayish-blue: 217 19% 24%;
+  --clr-dark-blue: 218 23% 16%;
+}
+
+@layer base {
+  body {
+    @apply font-manrope bg-clr-dark-blue;
+  }
+}
